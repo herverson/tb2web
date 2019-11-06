@@ -4,6 +4,11 @@ import Vue from 'vue'
 import './plugins/bootstrap-vue'
 import App from './App.vue'
 
+import Vuetify from "vuetify";
+import "vuetify/dist/vuetify.min.css";
+
+Vue.use(Vuetify);
+
 import('./services/axios')
 Vue.config.productionTip = false
 
